@@ -26,18 +26,18 @@ export default function Header() {
       showCursor: true,
       backDelay:1100,
       backSpeed: 35,
-      strings: ["Web Developer", "Freelancer", "Entusiasta da Tecnologia", "Estudante da Trybe", "Aficionado em aprender!"]
+      strings: ["Web Developer", "Freelancer", "Entusiasta da Tecnologia!", "Estudante da Trybe", "Aficionado em aprender!"]
     });
   },[]);
 
   return (
-    <div className="app__header app__flex">
+    <div id="home" className="app__header app__flex">
       <motion.div
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
         className="app__header-info"
       >
-        <div className="app__header-bafge">
+        <div className="app__header-badge">
           <div className="badge-cmp app__flex">
             <span>👋</span>
             <div style={{ marginLeft: '20px' }}>

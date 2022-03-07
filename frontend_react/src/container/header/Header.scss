@@ -60,6 +60,11 @@
   align-items: flex-end;
   flex-direction: column;
 
+  .badge-cmp {
+    p {
+      font-size: 20px;
+    }
+  }
   .badge-cmp,
   .tag-cmp {
     padding: 1rem 2rem;
@@ -74,17 +79,18 @@
   .tag-cmp {
     flex-direction: column;
     margin-top: 3rem;
-  }
 
-  h3{
-    color: crimson;
-    font-size: 20px;
-  }
-  
-  
+    h3{
+      color: crimson;
 
+      span{
+        font-size: 20px;
+      }
+    }
+  }
+ 
   span {
-    font-size: 5rem;
+    font-size: 2.5rem;
 
     @media screen and (min-width: 2000px) {
       font-size: 5rem;
@@ -184,17 +190,32 @@
 
   .overlay_circle {
     position: absolute;
-    left: 50px;
+    left: 60px;
     right: 0;
     bottom: 0;
     z-index: 0;
-    width: 85%;
+    width: 86%;
     height: 100%;
+
+    @media screen and (max-width: 480px) {
+      left: 35px !important;
+    }
+
+    @media (min-width: 481px) and (max-width: 768px) {
+      left: 60px !important;
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+      left: 80px !important;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1200px) {
+      left: 95px !important;
+    }
   }
 
   @media screen and (max-width: 1200px) {
     margin: 2rem 0;
     width: 100%;
-    left: 0;
   }
 }
