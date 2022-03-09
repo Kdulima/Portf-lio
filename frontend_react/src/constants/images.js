@@ -8,6 +8,9 @@ import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import waving from '../assets/waving-hand.gif';
 import people from '../assets/people-programer.png';
+import recipesEleven from '../assets/art_recipesE.png'
+import cachacaCacule from '../assets/cachaça_cacule.png';
+import salaoBacana from '../assets/salao_bacana.jpeg';
 
 export default {
   logo,
@@ -20,4 +23,7 @@ export default {
   sass,
   waving,
   people,
+  recipesEleven,
+  cachacaCacule,
+  salaoBacana,
 };
