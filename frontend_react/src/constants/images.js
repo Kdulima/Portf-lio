@@ -6,6 +6,8 @@ import bgIMG from '../assets/bgIMG.png';
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
+import waving from '../assets/waving-hand.gif';
+import people from '../assets/people-programer.png';
 
 export default {
   logo,
@@ -16,4 +18,6 @@ export default {
   react,
   redux,
   sass,
+  waving,
+  people,
 };
