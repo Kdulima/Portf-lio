@@ -11,6 +11,25 @@ import people from '../assets/people-programer.png';
 import recipesEleven from '../assets/art_recipesE.png'
 import cachacaCacule from '../assets/cachaça_cacule.png';
 import salaoBacana from '../assets/salao_bacana.jpeg';
+import bootstrap from '../assets/bootstrap.jpeg';
+import comunicacao from '../assets/comunicacao.jpeg';
+import css from '../assets/css.png';
+import docker from '../assets/docker.png';
+import empatia from '../assets/empatia.svg';
+import figma from '../assets/figma.png';
+import gestaoTempo from '../assets/gestaoTempo.jpeg';
+import git from '../assets/git.png';
+import html from '../assets/html.png';
+import inteligenciaEmocional from '../assets/inteligenciaEmocional.jpeg';
+import javascript from '../assets/javascript.png';
+import jest from '../assets/jest.png';
+import jQuery from '../assets/jQuery.png';
+import lideranca from '../assets/lideranca.jpeg';
+import mySql from '../assets/mySql.png';
+import node from '../assets/node.png';
+import tailwind from '../assets/tailwind.png';
+import trabalhoEquipe from '../assets/trabalhoEquipe.jpeg';
+
 
 export default {
   logo,
@@ -26,4 +45,22 @@ export default {
   recipesEleven,
   cachacaCacule,
   salaoBacana,
+  bootstrap,
+  comunicacao,
+  css,
+  docker,
+  empatia,
+  figma,
+  gestaoTempo,
+  git,
+  html,
+  inteligenciaEmocional,
+  javascript,
+  jest,
+  jQuery,
+  lideranca,
+  mySql,
+  node,
+  tailwind,
+  trabalhoEquipe,
 };
