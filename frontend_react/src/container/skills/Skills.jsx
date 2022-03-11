@@ -222,6 +222,26 @@ const Skills = () => {
             </div>
             <p className="p-text">TRABALHO EM EQUIPE</p>
           </motion.div>
+          <motion.div
+            whileInView={{oppacity: [0, 1]}}
+            transition={{ duration: 0.5 }}
+            className="app__skills-item app__flex"
+          >
+            <div className="app__flex">
+            <img src={images.criatividade} alt="criatividade" />
+            </div>
+            <p className="p-text">CRIATIVIDADE</p>
+          </motion.div>
+          <motion.div
+            whileInView={{oppacity: [0, 1]}}
+            transition={{ duration: 0.5 }}
+            className="app__skills-item app__flex"
+          >
+            <div className="app__flex">
+            <img src={images.pensamentoCritico} alt="pensamentoCritico" />
+            </div>
+            <p className="p-text">PENSAMENTO CRÍTICO</p>
+          </motion.div>
         </motion.div>
       </div>
     </>

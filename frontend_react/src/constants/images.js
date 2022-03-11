@@ -29,6 +29,8 @@ import mySql from '../assets/mySql.png';
 import node from '../assets/node.png';
 import tailwind from '../assets/tailwind.png';
 import trabalhoEquipe from '../assets/trabalhoEquipe.jpeg';
+import criatividade from '../assets/criatividade.png';
+import pensamentoCritico from '../assets/pensamentoCritico.jpg';
 
 
 export default {
@@ -63,4 +65,6 @@ export default {
   node,
   tailwind,
   trabalhoEquipe,
+  criatividade,
+  pensamentoCritico,
 };
