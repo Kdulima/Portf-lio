@@ -11,7 +11,7 @@ const Skills = () => {
     <>
       <h2 className="head-text">Skills</h2>
 
-      <h3 className="head-text">Hard <span>Skills</span></h3>
+      <h3 className="head-text"><span>Hard</span> Skills</h3>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
@@ -158,7 +158,7 @@ const Skills = () => {
         </motion.div>
       </div>
 
-      <h3 className="head-text">Soft <span>Skills</span></h3>
+      <h3 className="head-text"><span>Soft </span>Skills</h3>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
