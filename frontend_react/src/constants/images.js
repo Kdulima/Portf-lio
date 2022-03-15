@@ -31,7 +31,11 @@ import tailwind from '../assets/tailwind.png';
 import trabalhoEquipe from '../assets/trabalhoEquipe.jpeg';
 import criatividade from '../assets/criatividade.png';
 import pensamentoCritico from '../assets/pensamentoCritico.jpg';
-
+import email from '../assets/email.png';
+import mobile from '../assets/mobile.png';
+import whatsapp from '../assets/whatsapp.png';
+import peopleDev from '../assets/people-dev.gif'
+import shakeHands from '../assets/shake.svg';
 
 export default {
   logo,
@@ -67,4 +71,9 @@ export default {
   trabalhoEquipe,
   criatividade,
   pensamentoCritico,
+  email,
+  mobile,
+  whatsapp,
+  peopleDev,
+  shakeHands,
 };

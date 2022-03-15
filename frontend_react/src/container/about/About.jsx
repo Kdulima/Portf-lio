@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-// import { motion } from 'framer-motion';
 import { init } from 'ityped'
 
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -7,7 +6,7 @@ import './About.scss';
 import { images } from '../../constants';
 
 const About = () => {
-  // const [abouts, setAbouts] = useState([]);
+
   const textRef = useRef();
 
   useEffect(()=>{
@@ -21,19 +20,21 @@ const About = () => {
 
   return (
     <>
-      <div className="about-all">
-        <div className="about-animate">
-          <h2 className="head-text">Hello world, </h2>
-          <h1 className="head-text">Eu sou o Carlos Lima</h1>
-          <h3 className="head-text"><span ref={textRef}></span></h3>
-          {/* <img src={images.people} alt="people-programer" /> */}
+      <div className="app__about-all">
+        <div className="app__about-animate">
+        <img src={images.peopleDev} alt="waving-hand" />
+          <h3 className="head-text app__about-ityped"><span ref={textRef}></span></h3>
         </div>
-        <div className="about-text">
+        <div className="app__about-text">
           <p className="p-text">
             Dinâmico, pró-ativo e resiliente, apaixonado por aprender e entusiasta da tecnologia! Tenho 31 anos e estou numa transição de carreira, sai do ramo da logística e entrei de cabeça na área da programação!
-            <br/><br/>
+          </p>
+          <br/><br/>
+          <p className="p-text">
             Nessa caminhada conheci a Trybe, uma super escola de programação que está me ajudando demais nessa evolução, e junto com ela, estou crescendo todos os dias. A Trybe oferece um curso Full Stack com as tecnologias mais buscadas pelo mercado atualmente.
-            <br/><br/>
+          </p>
+          <br/><br/>
+          <p className="p-text">
             Meu objetivo é claro, me tornar um desenvolvedor capacitado e de alto nível, para isso, estudar constantemente é o que faço 🚀🚀
           </p>
         </div>

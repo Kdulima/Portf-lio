@@ -1,17 +1,19 @@
-.about-all {
+.app__about-all {
   display: flex;
   flex-direction: row;
+  gap: 5em;
 
   @media screen and (max-width: 1200px) {
     flex-direction: column;
     width: 100%;
+    gap: 0;
   }
 
-  .about-animate{
+  .app__about-animate{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     width: 40%;
 
     @media screen and (max-width: 1200px) {
@@ -28,17 +30,22 @@
     }
 
     img{
-      width: 500px;
-      border-radius: 20px;
+      width: 100%;
+      margin-bottom: 30px;
 
       @media screen and (max-width: 1200px) {
         width: 300px;
         align-items: center;
       }
     }
+
+    .app__about-ityped{
+      width: 100%;
+      text-align: center;
+    }
   }
 
-    .about-text{
+    .app__about-text{
       width: 50%;
 
       @media screen and (max-width: 1200px) {
@@ -46,13 +53,15 @@
       }
 
       p{
-        text-align: right;
+        text-align: left;
+        text-indent: 50px;
         font-size: 20px;
         line-height: 40px;
         margin-top: 20px;
         
         @media screen and (max-width: 1200px) {
           text-align: center;
+          text-indent: 0;
         }
       }
     }
