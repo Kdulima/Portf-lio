@@ -35,6 +35,7 @@ import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import whatsapp from '../assets/whatsapp.png';
 import peopleDev from '../assets/people-dev.gif'
+import shakeHands from '../assets/shake.svg';
 
 export default {
   logo,
@@ -74,4 +75,5 @@ export default {
   mobile,
   whatsapp,
   peopleDev,
+  shakeHands,
 };
