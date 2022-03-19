@@ -25,4 +25,18 @@ export const trybePortfolio = [
     img: images.recipesEleven,
     tag: "Mobile App",
   },
+  {
+    id: 2,
+    title: "Trybe Tunes",
+    description: "Player de música",
+    img: images.trybeTunes,
+    tag: "Web App",
+  },
+  {
+    id: 3,
+    title: "toDo List",
+    description: "Lista de tarefas",
+    img: images.toDoList,
+    tag: "Web App",
+  },
 ];

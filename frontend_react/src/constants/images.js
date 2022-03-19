@@ -36,6 +36,10 @@ import mobile from '../assets/mobile.png';
 import whatsapp from '../assets/whatsapp.png';
 import peopleDev from '../assets/people-dev.gif'
 import shakeHands from '../assets/shake.svg';
+import siteConstrucao from '../assets/emConstrucao.gif';
+import siteConstrucao2 from '../assets/emConstrucao2.gif';
+import trybeTunes from '../assets/trybeTunes.png';
+import toDoList from '../assets/toDoList.jpg';
 
 export default {
   logo,
@@ -76,4 +80,8 @@ export default {
   whatsapp,
   peopleDev,
   shakeHands,
+  siteConstrucao,
+  siteConstrucao2,
+  trybeTunes,
+  toDoList,
 };
