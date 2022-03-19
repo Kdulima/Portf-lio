@@ -11,10 +11,7 @@ const Contact = () => {
     <div>
       <h2 className="head-text">Vamos idealizar uma solução para o seu <span>negócio</span>?</h2>
     </div>
-      <div className="left">
-        <img src={images.shakeHands} alt="shakeHands" />
-      </div>
-      <div className="app__contact-cards right">
+      <div className="app__contact-cards">
         <div className="app__contact-card ">
           <img src={images.email} alt="email" />
           <a href="mailto:contato@kdulima.com" className="p-text">contato@kdulima.com</a>

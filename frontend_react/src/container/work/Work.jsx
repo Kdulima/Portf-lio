@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { AiFillEye, AiFillGithub} from 'react-icons/ai';
 import { motion } from 'framer-motion';
+import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import {
   webPortfolio,
@@ -65,7 +66,7 @@ const Work = () => {
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className="app__work-hover app__flex"
               >
-                <a href="http://www.linkedin.com/in/carloslima90/" target="_blank" rel = "noreferrer">
+                <a href= {images.siteConstrucao} target="_blank" rel = "noreferrer">
                   <motion.div
                     whileInView={{scale: [0, 1]}}
                     whileHover={{scale: [1, 0.9]}}
@@ -75,7 +76,7 @@ const Work = () => {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                <a href="http://github.com/Kdulima" target="_blank" rel = "noreferrer">
+                <a href={images.siteConstrucao2} target="_blank" rel = "noreferrer">
                   <motion.div
                     whileInView={{scale: [0, 1]}}
                     whileHover={{scale: [1, 0.9]}}
