@@ -76,7 +76,7 @@ const Work = () => {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                <a href={images.siteConstrucao2} target="_blank" rel = "noreferrer">
+                <a href={item.github} target="_blank" rel = "noreferrer">
                   <motion.div
                     whileInView={{scale: [0, 1]}}
                     whileHover={{scale: [1, 0.9]}}

@@ -7,7 +7,6 @@ import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import waving from '../assets/waving-hand.gif';
-import people from '../assets/people-programer.png';
 import recipesEleven from '../assets/art_recipesE.png'
 import cachacaCacule from '../assets/cachaça_cacule.png';
 import salaoBacana from '../assets/salao_bacana.jpeg';
@@ -35,7 +34,6 @@ import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import whatsapp from '../assets/whatsapp.png';
 import peopleDev from '../assets/people-dev.gif'
-import shakeHands from '../assets/shake.svg';
 import siteConstrucao from '../assets/emConstrucao.gif';
 import siteConstrucao2 from '../assets/emConstrucao2.gif';
 import trybeTunes from '../assets/trybeTunes.png';
@@ -51,7 +49,6 @@ export default {
   redux,
   sass,
   waving,
-  people,
   recipesEleven,
   cachacaCacule,
   salaoBacana,
@@ -79,7 +76,6 @@ export default {
   mobile,
   whatsapp,
   peopleDev,
-  shakeHands,
   siteConstrucao,
   siteConstrucao2,
   trybeTunes,
