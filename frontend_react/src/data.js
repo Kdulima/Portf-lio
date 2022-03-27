@@ -24,6 +24,8 @@ export const trybePortfolio = [
     description: "Job mobile do curso da Trybe",
     img: images.recipesEleven,
     tag: "Mobile App",
+    view: "",
+    github: "https://github.com/Kdulima/Trybe/tree/master/Frontend/bloco-18-projeto-app-de-receitas",
   },
   {
     id: 2,
@@ -31,6 +33,8 @@ export const trybePortfolio = [
     description: "Player de música",
     img: images.trybeTunes,
     tag: "Web App",
+    view: "",
+    github: "https://github.com/Kdulima/Trybe/tree/master/Frontend/bloco-18-projeto-app-de-receitas",
   },
   {
     id: 3,
@@ -38,5 +42,7 @@ export const trybePortfolio = [
     description: "Lista de tarefas",
     img: images.toDoList,
     tag: "Web App",
+    view: "",
+    github: "https://github.com/Kdulima/Trybe/tree/master/Frontend/bloco-18-projeto-app-de-receitas",
   },
 ];
