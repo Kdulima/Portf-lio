@@ -1,4 +1,4 @@
-# Meu Portfolio : rocket :
+# Meu Portfolio 🚀🚀🚀
 
 
 ### Para conferir a aplicação em funcioanemtno, acesse: **[http://kdulima.com/](http://kdulima.com/).**
