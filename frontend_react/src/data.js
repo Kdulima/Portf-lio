@@ -25,7 +25,7 @@ export const trybePortfolio = [
     img: images.recipesEleven,
     tag: "Mobile App",
     view: "",
-    github: "https://github.com/Kdulima/Trybe/tree/master/Frontend/bloco-18-projeto-app-de-receitas",
+    github: "https://github.com/Kdulima/Projeto-App-de-Receitas",
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ export const trybePortfolio = [
     img: images.trybeTunes,
     tag: "Web App",
     view: "",
-    github: "https://github.com/Kdulima/Trybe/tree/master/Frontend/bloco-18-projeto-app-de-receitas",
+    github: "https://github.com/Kdulima/Projeto-Trybetunes",
   },
   {
     id: 3,
@@ -43,6 +43,6 @@ export const trybePortfolio = [
     img: images.toDoList,
     tag: "Web App",
     view: "",
-    github: "https://github.com/Kdulima/Trybe/tree/master/Frontend/bloco-18-projeto-app-de-receitas",
+    github: "https://github.com/Kdulima/Projeto-toDo-List",
   },
 ];

@@ -38,6 +38,7 @@ import siteConstrucao from '../assets/emConstrucao.gif';
 import siteConstrucao2 from '../assets/emConstrucao2.gif';
 import trybeTunes from '../assets/trybeTunes.png';
 import toDoList from '../assets/toDoList.jpg';
+import typescript from '../assets/typescript.png';
 
 export default {
   logo,
@@ -80,4 +81,5 @@ export default {
   siteConstrucao2,
   trybeTunes,
   toDoList,
+  typescript,
 };

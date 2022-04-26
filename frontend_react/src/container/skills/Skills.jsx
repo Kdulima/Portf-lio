@@ -11,8 +11,6 @@ const Skills = () => {
     <>
       <h2 className="head-text">Skills</h2>
 
-      <h3 className="head-text"><span>Hard</span> Skills</h3>
-
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
           <motion.div
@@ -155,92 +153,15 @@ const Skills = () => {
             </div>
             <p className="p-text">NODE</p>
           </motion.div>
-        </motion.div>
-      </div>
-
-      <h3 className="head-text"><span>Soft </span>Skills</h3>
-
-      <div className="app__skills-container">
-        <motion.div className="app__skills-list">
           <motion.div
             whileInView={{oppacity: [0, 1]}}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
           >
             <div className="app__flex">
-            <img src={images.comunicacao} alt="comunicacao" />
+            <img src={images.typescript} alt="typescript" />
             </div>
-            <p className="p-text">COMUNICAÇÃO</p>
-          </motion.div>
-          <motion.div
-            whileInView={{oppacity: [0, 1]}}
-            transition={{ duration: 0.5 }}
-            className="app__skills-item app__flex"
-          >
-            <div className="app__flex">
-            <img src={images.empatia} alt="empatia" />
-            </div>
-            <p className="p-text">EMPATIA</p>
-          </motion.div>
-          <motion.div
-            whileInView={{oppacity: [0, 1]}}
-            transition={{ duration: 0.5 }}
-            className="app__skills-item app__flex"
-          >
-            <div className="app__flex">
-            <img src={images.gestaoTempo} alt="gestaoTempo" />
-            </div>
-            <p className="p-text">GESTÃO DE TEMPO</p>
-          </motion.div>
-          <motion.div
-            whileInView={{oppacity: [0, 1]}}
-            transition={{ duration: 0.5 }}
-            className="app__skills-item app__flex"
-          >
-            <div className="app__flex">
-            <img src={images.inteligenciaEmocional} alt="inteligenciaEmocional" />
-            </div>
-            <p className="p-text">Inteligência Emocional</p>
-          </motion.div>
-          <motion.div
-            whileInView={{oppacity: [0, 1]}}
-            transition={{ duration: 0.5 }}
-            className="app__skills-item app__flex"
-          >
-            <div className="app__flex">
-            <img src={images.lideranca} alt="lideranca" />
-            </div>
-            <p className="p-text">LIDERANÇA</p>
-          </motion.div>
-          <motion.div
-            whileInView={{oppacity: [0, 1]}}
-            transition={{ duration: 0.5 }}
-            className="app__skills-item app__flex"
-          >
-            <div className="app__flex">
-            <img src={images.trabalhoEquipe} alt="trabalhoEquipe" />
-            </div>
-            <p className="p-text">TRABALHO EM EQUIPE</p>
-          </motion.div>
-          <motion.div
-            whileInView={{oppacity: [0, 1]}}
-            transition={{ duration: 0.5 }}
-            className="app__skills-item app__flex"
-          >
-            <div className="app__flex">
-            <img src={images.criatividade} alt="criatividade" />
-            </div>
-            <p className="p-text">CRIATIVIDADE</p>
-          </motion.div>
-          <motion.div
-            whileInView={{oppacity: [0, 1]}}
-            transition={{ duration: 0.5 }}
-            className="app__skills-item app__flex"
-          >
-            <div className="app__flex">
-            <img src={images.pensamentoCritico} alt="pensamentoCritico" />
-            </div>
-            <p className="p-text">PENSAMENTO CRÍTICO</p>
+            <p className="p-text">Typescript</p>
           </motion.div>
         </motion.div>
       </div>
